@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(26, 26, 26);
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+p {
+  font-family: sans-serif;
+  text-align: center;
+}
+div {
+  margin: auto;
+  width: 80vh;
+  height: 100vh;
+  background-color: #eee;
+  /* background-image: linear-gradient(
+    to bottom right,
+    rgb(238, 25, 60),
+    orange
+  ); */
+
+  /* background-image: radial-gradient(purple, rgb(212, 74, 212),rgb(212, 74, 212)); */
+  padding: 10px;
+}
+textarea {
+  font-family: Helvetica;
+  background-color: whitesmoke;
+  width: 48%;
+  height: 200px;
+  resize: none;
+}
+#in {
+  float: center;
+  margin: auto;
+  width: 30vh;
+  height: 35vh;
+}
+#out {
+  width: 30vh;
+  height: 35vh;
+  float: center;
+  margin: auto;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(16, 172, 86);
+  color: white;
+  float: right;
+}
